@@ -11,7 +11,7 @@ Welcome to the Landing Pages Repository! This repository is dedicated to providi
 How to Use
 **Clone the Repository:**
 Copy code: -
-**git clone https://github.com/yourusername/LAnding-Pages.git**
+git@github.com:Souravjha69/Landing-Pages-Websites.git
 (a) Choose a Template: Browse through the available templates and select the one that suits your needs.
 (b) Customize: Edit the HTML, CSS, and JavaScript files to tailor the landing page to your specific requirements.
 (c) Deploy: Once you're satisfied with your landing page, deploy it to your preferred hosting platform.
