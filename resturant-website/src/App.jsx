@@ -1,17 +1,19 @@
 import About from "./components/About";
 import Dishes from "./components/Dishes";
 import HeroSection from "./components/HeroSection";
+import Mission from "./components/Mission";
 import Navbar from "./components/Navbar";
-import "./index.css"
-function App () {
+import "./index.css";
+function App() {
   return (
     <>
-    <div className="overflow-y-hidden text-neutral-200 antialiased">
-    <HeroSection/>
-    <Navbar/>
-    <Dishes/>
-    <About/>
-    </div>
+      <div className="overflow-y-hidden text-neutral-200 antialiased">
+        <HeroSection />
+        <Navbar />
+        <Dishes />
+        <About />
+        <Mission />
+      </div>
     </>
   );
 }
