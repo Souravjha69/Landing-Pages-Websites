@@ -1,8 +1,6 @@
-# React + Vite
+# React + Vite + Tailwind CSS
+This is Food Website that is based on React JS and Tailwind CSS. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img width="1575" alt="Screenshot 2024-07-09 at 12 44 38 AM" src="https://github.com/Souravjha69/Landing-Pages-Websites/assets/163469201/719fc354-5b48-46e4-9e58-6d7aa9f784d8">
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
