@@ -129,7 +129,6 @@ export const SOCIAL_MEDIA_LINKS = [
     href: "https://x.com/",
     icon: <FaFacebook fontSize={30} className="hover:opacity-80" />,
   },
-
   {
     href: "https://x.com/",
     icon: <FaInstagram fontSize={30} className="hover:opacity-80" />,
