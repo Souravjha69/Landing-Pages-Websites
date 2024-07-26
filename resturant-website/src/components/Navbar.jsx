@@ -1,7 +1,7 @@
 import { useState } from "react";
 import logo from "../assets/logo.png";
 import { LINKS } from "../constants/index";
-import { FaBars } from "react-icons/fa6";
+import { FaBars } from "react-icons/fa";
 import { FaTimes } from "react-icons/fa";
 
 function Navbar() {
@@ -13,9 +13,9 @@ function Navbar() {
 
   const handleScroll = (event, targetId) => {
     event.preventDefault();
-    const targetElement = document.getElementsById(targetId);
+    const targetElement = document.getElementById(targetId);
     if (targetElement) {
-      const offsetTop = targetElement.offsetTop - 80;
+      const offsetTop = targetElement.offsetTop - 80; // Adjust this value based on your fixed navbar height
       window.scrollTo({
         top: offsetTop,
         behavior: "smooth",
@@ -23,6 +23,7 @@ function Navbar() {
     }
     setIsMobileMenuOpen(false);
   };
+
   return (
     <>
       <nav className="fixed top-4 z-50 flex w-full flex-col items-center justify-center">
@@ -66,4 +67,5 @@ function Navbar() {
     </>
   );
 }
+
 export default Navbar;
